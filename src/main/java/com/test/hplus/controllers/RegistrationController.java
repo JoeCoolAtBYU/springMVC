@@ -15,11 +15,10 @@ public class RegistrationController {
     private UserRepository userRepository;
 
     @PostMapping("/registeruser")
-    public String registerUser(@ModelAttribute("newuser") User user, Model model) {
+    public String registerUser(@ModelAttribute("newuser")User user, Model model){
         System.out.println("in registration controller");
         userRepository.save(user);
-        model.addAttribute("dataSaved", "User registerd successfully");
+        model.addAttribute("dataSaved", "User registered successfully");
         return "login";
     }
-
 }

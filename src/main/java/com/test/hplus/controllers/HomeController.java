@@ -12,36 +12,37 @@ import java.util.List;
 public class HomeController {
 
     @GetMapping("/home")
-    public String goHome() {
+    public String goHome(){
         System.out.println("in home controller");
         return "index";
     }
 
     @GetMapping("/goToSearch")
-    public String goToSearch() {
+    public String goToSearch(){
         System.out.println("going to search page");
         return "search";
     }
 
     @GetMapping("/goToLogin")
-    public String goToLogin() {
+    public String goToLogin(){
         System.out.println("going to login page");
         return "login";
     }
 
     @GetMapping("/goToRegistration")
-    public String goToRegistration() {
-        System.out.println("going to registration page");
-        return "registration";
+    public String goToRegistration(){
+        System.out.println("going to register page");
+        return "register";
     }
 
     @ModelAttribute("newuser")
-    private User getDefaultUser() {
+    public User getDefaultUser(){
         return new User();
     }
 
     @ModelAttribute("genderItems")
-    private List<String> getGenderItems() {
+    public List<String> getGenderItems(){
         return Arrays.asList(new String[]{"Male", "Female", "Other"});
     }
+
 }
