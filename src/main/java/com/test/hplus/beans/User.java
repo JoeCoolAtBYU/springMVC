@@ -21,16 +21,16 @@ public class User {
     @Size(min=6, message = "{username.length.error}")
     private String username;
 
-    @Pattern(regexp = "((?=.*[A-Z]).{6,10})", message = "password sould be 6 to 10 characters long.")
+    @Pattern(regexp = "((?=.*[A-Z]).{6,10})", message = "{password.error}")
     private String password;
 
     @Enumerated(EnumType.STRING)
     private Gender gender;
     
-    @NotNull(message = "Cannot be empty")
+    @NotNull(message = "{not.empty}")
     private String activity;
 
-    @NotEmpty(message = "cannot be empty")
+    @NotEmpty(message = "{not.empty}")
     private String firstName;
     private String lastName;
     private Date dateOfBirth;
