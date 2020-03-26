@@ -13,7 +13,7 @@ public class User {
     @Id
     private int id;
 
-    @Size(min=6, message = "Username cannot be less than 6 letters")
+    @Size(min=6, message = "{username.length.error}")
     private String username;
 
     @Pattern(regexp = "((?=.*[A-Z]).{6,10})", message = "password sould be 6 to 10 characters long.")
