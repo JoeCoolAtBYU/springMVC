@@ -44,7 +44,7 @@ public class SearchController {
 
         taskExecutor.execute(() -> {
             try {
-                Thread.sleep(6000);
+                Thread.sleep(1);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
