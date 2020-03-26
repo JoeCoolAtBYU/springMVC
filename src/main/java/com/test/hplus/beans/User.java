@@ -1,6 +1,10 @@
 package com.test.hplus.beans;
 
+import com.sun.tools.javac.jvm.Gen;
+
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.Id;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
@@ -19,7 +23,9 @@ public class User {
 
     @Pattern(regexp = "((?=.*[A-Z]).{6,10})", message = "password sould be 6 to 10 characters long.")
     private String password;
-    private String gender;
+
+    @Enumerated(EnumType.STRING)
+    private Gender gender;
     
     @NotNull(message = "Cannot be empty")
     private String activity;
@@ -53,11 +59,11 @@ public class User {
         this.password = password;
     }
 
-    public String getGender() {
+    public Gender getGender() {
         return gender;
     }
 
-    public void setGender(String gender) {
+    public void setGender(Gender gender) {
         this.gender = gender;
     }
 
