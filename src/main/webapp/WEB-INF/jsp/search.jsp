@@ -11,27 +11,27 @@
 
 	<header id="home" class="header">
 		<nav class="nav" role="navigation">
-			<div class="container nav-elements">
-				<div class="branding">
-					<a href="home"><img src="images/hpluslogo.svg"
-						alt="Logo - H Plus Sports"></a>
-				</div>
-				<!-- branding -->
-				<ul class="navbar">
-                                <li><a href="/home">home</a></li>
-                                <li><a href="/goToLogin">login</a></li>
-                                <li><a href="/goToSearch">search</a></li>
-                                <li><a href="#">linkedin</a></li>
-                            </ul><!-- navbar -->
-				<!-- navbar -->
-			</div>
-			<!-- container nav-elements -->
-		</nav>
-	</header>
-	<!-- #home -->
+            <div class="container nav-elements">
+                <div class="branding">
+                    <a href="home"><img src="images/hpluslogo.svg"
+                                        alt="Logo - H Plus Sports"></a>
+                </div>
+                <!-- branding -->
+                <ul class="navbar">
+                    <li><a href="/home">home</a></li>
+                    <li><a href="/goToLogin">login</a></li>
+                    <li><a href="/goToSearch">search</a></li>
+                    <li><a href="/redirectToLinkedIn">linkedin</a></li>
+                </ul><!-- navbar -->
+                <!-- navbar -->
+            </div>
+            <!-- container nav-elements -->
+        </nav>
+    </header>
+    <!-- #home -->
 
-	<section id="search" class="section">
-		<header class="imageheader"></header>
+    <section id="search" class="section">
+        <header class="imageheader"></header>
 		<div class="container">
 			<h2 class="headline">Search Products</h2>
 			<form action="/search" method="get">

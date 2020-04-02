@@ -10,25 +10,25 @@
 <body>
 
 <header id="home" class="header">
-	<nav class="nav" role="navigation">
-		<div class="container nav-elements">
-			<div class="branding">
-				<a href="#home"><img src="images/hpluslogo.svg"
-									 alt="Logo - H Plus Sports"></a>
-			</div>
-			<!-- branding -->
-			<ul class="navbar">
-				<li><a href="/home">home</a></li>
-				<li><a href="/goToSearch">search</a></li>
-				<li><a href="">linkedIn</a></li>
+    <nav class="nav" role="navigation">
+        <div class="container nav-elements">
+            <div class="branding">
+                <a href="#home"><img src="images/hpluslogo.svg"
+                                     alt="Logo - H Plus Sports"></a>
+            </div>
+            <!-- branding -->
+            <ul class="navbar">
+                <li><a href="/home">home</a></li>
+                <li><a href="/goToSearch">search</a></li>
+                <li><a href="/redirectToLinkedIn">linkedIn</a></li>
 
-			</ul>
-			<!-- navbar -->
-		</div>
-		<!-- container nav-elements -->
-	</nav>
+            </ul>
+            <!-- navbar -->
+        </div>
+        <!-- container nav-elements -->
+    </nav>
 
-	<!-- <div class="container tagline">
+    <!-- <div class="container tagline">
 <h1 class="headline">Our Mission</h1>
 <p>We support and encourage <em>active and healthy</em> lifestyles, by offering <em>ethically sourced</em> and <em>eco-friendly</em> nutritional products for the <em>performance-driven</em> athlete.</p>
 </div>container tagline -->

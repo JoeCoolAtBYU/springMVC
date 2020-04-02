@@ -16,17 +16,18 @@
                 <li><a href="/home">home</a></li>
                 <li><a href="/goToLogin">login</a></li>
                 <li><a href="/goToSearch">search</a></li>
-                <li><a href="redirect">linkedin</a></li>
+                <li><a href="/redirectToLinkedIn">linkedin</a></li>
             </ul><!-- navbar -->
         </div><!-- container nav-elements -->
     </nav>
     <div class="container tagline">
         <h1 class="headline">Our Mission</h1>
-        <p>We support and encourage <em>active and healthy</em> lifestyles, by offering <em>ethically sourced</em> and <em>eco-friendly</em> nutritional products for the <em>performance-driven</em> athlete.</p>
+        <p>We support and encourage <em>active and healthy</em> lifestyles, by offering <em>ethically sourced</em> and
+            <em>eco-friendly</em> nutritional products for the <em>performance-driven</em> athlete.</p>
     </div><!-- container tagline -->
 </header><!-- #home -->
 <section id="error" class="section">
-<p class = "error">Sorry, dementors have attacked, Professor McGonagall is attending to it:)</p>
+    <p class="error">Sorry, dementors have attacked, Professor McGonagall is attending to it:)</p>
 </section>
 <footer class="footer">
     <div class="container">
